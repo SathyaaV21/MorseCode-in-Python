@@ -11,7 +11,7 @@ morseCode={"a":"•-","b":"-•••","c":"-•-•","d":"-••","e":"•","f
 choice=input("1.English to Morse(or)2.Morse to English")
 if(choice=="1"):
     word=input("Enter Words: ").lower()
-    print("Entered Sentence is, ",word)
+    print("Checking Git, ",word)
     for i in word:
         print(morseCode[i],end=' ')
 else:
